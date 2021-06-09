@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;400;500;600;700;900&family=Noto+Serif+KR:wght@50; 100;200;300;500;700&display=swap" rel="stylesheet">
+		
+		<style type="text/css">
+			body, section, img, h1, p {margin: 0;}
+			body {background-color: white;  }
+			section {margin: auto; color: white; background-color: white;  word-break: keep-all; width: 1518px ; overflow:hidden; }
+			img{display: block; width: 100%;}
+			h1 {font-family: 'Noto Sans KR', sans-serif; font-weight: 600; 
+				color:black; text-align: center;padding-top: 230px; padding-bottom: 20px; font-size: 2.5em;}
+			
+			p{font-family: 'Noto Sans KR', serif; font font-weight: 50; color: black; line-height: 2.2; font-size: 1em; word-spacing: 0px;
+				word-break: keep-all; text-align: center; padding-top: 50px; 
+				padding-bottom: 400px;}
+
+			.white {background: white;}
+			.row {width: 1200px; margin:auto; position: relative;}
+			.row1 {width: 1200px; margin:auto; font-size: 0.9em;}
+			.row2{padding-top: 300px; padding-bottom: 2000px; background: white;}
+			
+			.row11{padding-top: 0px; padding-bottom: 1000px; background: white; }
+
+			
+			.relative{position: relative;}
+			.absolute {display: block; position: absolute;}
+
+			.text {text-align: left;}
+
+			@keyframes goback{ from { left: 200% } to { right: 100% } } 
+			@keyframes goback2{ to { left: -5%} }
+			
+			@keyframes goback3{ from{ top: 200% } }
+			@keyframes goback4{ from{ top: -5% } }
+
+			@keyframes goback5{ from { right: 300% } to { left: 30% } }
+
+			@keyframes goback6{ from{ top: -700%  } }
+			@keyframes goback7{ to { left: 10%} }
+			@keyframes goback8{ to { left: 5%} }
+			@keyframes goback9{ to { left: 500% } } 
+			@keyframes goback10{ from{ top: 500%  } }
+			@keyframes goback11{ to { left: -20%} }
+			@keyframes goback12{ from{ top: 300%  } }
+
+			
+			@keyframes stay{ 0%{opacity: 0;} 100% {opacity: 100%;}}
+			
+
+			@keyframes jump{0%{} 100%{transform: rotate3d(0,1,0,360deg); } }
+			@keyframes jump2{0%{} 100%{transform: rotate(360deg); } }
+			
+			
+			
+			
+			.sticker1 { left: 500px; width: 140%; top :-70px; }
+			.sticker1_1 {left: 0px; width: -300px; top : 200px; text-align: left;  font-size: 7em; z-index: 30; }
+			.sticker1_2 { left: -1000px; width:140%; top :-60px; }
+			.sticker1_3 {left: 950px; top : -200px; text-align: left;  font-size: 7em; z-index: 30; }
+			.sticker1_3_1 {left: 800px; top : 200px; text-align: left;   font-size: 5em; z-index: 30; font-weight: 600; line-height: 1.5;}
+
+			.sticker1_4 { left: -500px; width: 165%; top :500px; }
+			.sticker1_5 {left: 100px; width: -250px; top : -250px; text-align: left;  font-size: 7em; z-index: 30; }
+			.sticker1_5_1 {left: 0px; top : 150px; text-align: left;   font-size: 5em; z-index: 30; font-weight: 600; line-height: 1.5;}
+			.sticker1_6 { left: 300px; width: 130%; top :0px; }
+			.sticker1_7 {left: 900px; top : -250px; text-align: left;  font-size: 7em; z-index: 30; }
+
+
+			.sticker2_1 { left: 950px; width: -300px; top :600px; width: 0.3%; opacity:70% ; animation: goback3 3s forwards infinite;}
+			.sticker2_2 { left: 900px; width: -300px; top :0px; opacity:70%; 
+				width: 35%; animation: goback 4s infinite cubic-bezier(.2,.6,.41,.8); }
+			.sticker2_3 { left: 900px; width: -300px; top :60px; opacity:70%; width: 12%; animation: goback 4s infinite cubic-bezier(.2,.6,.41,.8);}
+			
+			.sticker2_4 { left: 210px; width: -300px; top :20px; width: 0.5%; height: 60% ;animation: goback3 3.5s forwards infinite cubic-bezier(.2,.6,.41,.8);}
+			.sticker2_5 { left: -150px; width: -300px; top :200px; width: 30%;animation: stay 5s forwards infinite;}
+			.sticker2_6 { left: -150px; width: -300px; top :240px; width: 25%;animation: stay 5s forwards infinite;}
+			
+			
+			
+			.sticker3 { left: 210px; width: -300px; top :210px; text-align: left;}
+			.sticker3_1 { left: 400px; width: -300px; top :210px; text-align: left;}
+			.sticker3_2 { left: 1050px; width: -300px; top :230px;  width: 9%; height: 50%;
+				animation: stay 7s forwards infinite;}
+			.sticker3_3 { left: 10px; width: -300px; top :230px;  width: 9%; height: 50%;
+			animation: stay 7s forwards infinite;}
+			
+			
+
+		
+
+
+			
+
+		
+
+			.sticker18 { left: 550px; width: -300px; top :200px; width: 8%; height: 50%; animation: goback4 5s infinite cubic-bezier(.2,.6,.41,.8); }
+			.sticker18_0 { text-align: center; font-size: 0.9em; left: 505px; width: -300px; top :700px; line-height: 2; font-weight:300}
+
+			
+			
+
+
+			.flex {display: flex;}
+			.width50 {width: 50%;}
+			.row0{font-size: 1em;}
+
+			.back1{background: url(img3.jpg); background-size: 100% auto;
+	 			background-attachment: fixed; }
+
+			
+
+			nav{position: fixed; top: 3vh; z-index: 30; left: 100vh; }
+			a{ font-size: 1.5em;  font-weight:600; color: black; text-decoration: none; line-height: 2;
+			text-align: center;}
+			
+			a:hover{ font-size: 1.1em;  font-weight:600; color: black; text-decoration: none; }
+			*{scroll-behavior: smooth;}
+	</style>
+</head>
+ 
+<body>
+	<nav>
+		<a href="#s5">Why</a><br>
+		<a href="#s1">Who</a><br>
+		<a href="#s2">Where </a><br>
+		<a href="#s3">When</a><br>
+		<a href="#s4">What</a><br>
+		<a href="#s6">How </a>
+	</nav>
+	
+	
+	<section class="black">
+		<div class="row row2 ">
+			<img src= " line1.png" class="absolute sticker1 ">
+			<header> <h1 class="absolute sticker1_1 ">KOREA’S<br>SPACE<br>INDUSTRY </h1> </header>
+			</div>
+	</section>
+
+	<section class="black">
+		<div class="row row2 ">
+			<img src= " line2.png" class="absolute sticker1_2 ">
+			<header> <h1 class=" absolute sticker1_3 ">Why</h1> </header>
+
+			<p class="absolute sticker1_3_1">지금은 우주대항해 시대</p>
+			
+			</div>
+	</section>
+
+	<section class="black">
+		<div class="row row2 ">
+			<img src= " line3.png" class="absolute sticker1_4 ">
+			<header> <h1 class="absolute sticker1_5 ">Who<br> </h1> </header>
+			<p class="absolute sticker1_5_1">시작은<br> 미국으로<br> 부터</p>
+			</div>
+	</section>
+
+	<section class="black">
+		<div class="row row2 ">
+			<img src= " line4.png" class="absolute sticker1_6 ">
+			<header> <h1 class="absolute sticker1_7 ">Where<br></h1> </header>
+			<p class="absolute sticker1_3_1">달?! <br>거기 꼭 가야겠어?</p>
+			
+			</div>
+	</section>
+
+	
+	<section class="row2 "> 
+			<div class="row relative row11">
+				
+				<p class="absolute sticker18_0"><br><br><br>Aram Kim 2021 Visual Design <br> clamp9011@gmail.com </p>
+			
+			</div>
+	</section>
+	
+
+	
+
+
+
+</body>
+</html>
